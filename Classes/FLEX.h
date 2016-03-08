@@ -7,3 +7,4 @@
 //
 
 #import <FLEX/FLEXManager.h>
+#import <FLEX/FLEXRuntimeUtility.h>

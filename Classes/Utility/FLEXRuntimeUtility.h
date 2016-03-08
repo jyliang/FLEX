@@ -49,7 +49,7 @@ extern NSString *const kFLEXUtilityAttributeOldStyleTypeEncoding;
 + (NSArray *)prettyArgumentComponentsForMethod:(Method)method;
 
 // Method Calling/Field Editing
-+ (id)performSelector:(SEL)selector onObject:(id)object withArguments:(NSArray *)arguments error:(NSError * __autoreleasing *)error;
++ (id)performSelector:(SEL)selector onObject:(id)object withArguments:(NSArray *)arguments error:(NSError *__autoreleasing *)error;
 + (NSString *)editableJSONStringForObject:(id)object;
 + (id)objectValueFromEditableJSONString:(NSString *)string;
 + (NSValue *)valueForNumberWithObjCType:(const char *)typeEncoding fromInputString:(NSString *)inputString;
